@@ -1,4 +1,0 @@
-repository "WildWestCepelinai/WildWestCepelinaii@1375788313915@cloud"
-  path "/"
-    br "/main"
-    co "/main"
