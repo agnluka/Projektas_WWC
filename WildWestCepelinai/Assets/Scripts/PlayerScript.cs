@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Security.Cryptography;
 using UnityEngine;
+using UnityEngine.VFX;
 
 public class PlayerScript : MonoBehaviour
 {
@@ -14,6 +15,8 @@ public class PlayerScript : MonoBehaviour
     public Transform LaunchOfSet;
 
     public GameObject outfits;
+
+    private bool isWalking = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     IEnumerator Start()
@@ -52,53 +55,94 @@ public class PlayerScript : MonoBehaviour
 
         if (isPlayer1 && !TogglePause.isPaused)
         {
-            if (Input.GetKeyDown(KeyCode.W) && rigidbody.linearVelocityY == 0)
+            // Jump
+            if (Input.GetKeyDown(KeyCode.W) && rigidbody.linearVelocity.y == 0)
             {
                 rigidbody.linearVelocity = Vector2.up * 40;
-            } // jump
+                AudioManager.instance.PlaySound(AudioManager.instance.jumpSound);
+            }
 
+            // Right movement
             if (Input.GetKey(KeyCode.D))
             {
-                rigidbody.linearVelocity = new Vector2(xInput * speed, rigidbody.linearVelocityY);
-            } // right
-
-            if (Input.GetKey(KeyCode.A))
+                rigidbody.linearVelocity = new Vector2(speed, rigidbody.linearVelocity.y);
+                if (!isWalking)
+                {
+                    AudioManager.instance.PlaySound(AudioManager.instance.walkingSound);
+                    isWalking = true;
+                }
+            }
+            // Left movement
+            else if (Input.GetKey(KeyCode.A))
             {
-                rigidbody.linearVelocity = new Vector2(xInput * speed, rigidbody.linearVelocityY);
-            } // left
+                rigidbody.linearVelocity = new Vector2(-speed, rigidbody.linearVelocity.y);
+                if (!isWalking)
+                {
+                    AudioManager.instance.PlaySound(AudioManager.instance.walkingSound);
+                    isWalking = true;
+                }
+            }
+            else
+            {
+                rigidbody.linearVelocity = new Vector2(0, rigidbody.linearVelocity.y);
+                isWalking = false;
+            }
 
             Flip(isPlayer1);
 
+            // Shoot
             if (Input.GetKeyDown(KeyCode.E))
             {
                 Instantiate(bulletPrefab, LaunchOfSet.position, LaunchOfSet.rotation);
-            } // shoot
+                AudioManager.instance.PlaySound(AudioManager.instance.shootingSound);
+                AudioManager.instance.PlaySound(AudioManager.instance.hitSound);
+            }
         }
         else if (!isPlayer1 && !TogglePause.isPaused)
         {
-            if (Input.GetKeyDown(KeyCode.UpArrow) && rigidbody.linearVelocityY == 0)
+            // Jump
+            if (Input.GetKeyDown(KeyCode.UpArrow) && rigidbody.linearVelocity.y == 0)
             {
                 rigidbody.linearVelocity = Vector2.up * 40;
-            } // jump
+                AudioManager.instance.PlaySound(AudioManager.instance.jumpSound);
+            }
 
+            // Right movement
             if (Input.GetKey(KeyCode.RightArrow))
             {
-                rigidbody.linearVelocity = new Vector2(xInput * speed, rigidbody.linearVelocityY);
-            } // right
-
-            if (Input.GetKey(KeyCode.LeftArrow))
+                rigidbody.linearVelocity = new Vector2(speed, rigidbody.linearVelocity.y);
+                if (!isWalking)
+                {
+                    AudioManager.instance.PlaySound(AudioManager.instance.walkingSound);
+                    isWalking = true;
+                }
+            }
+            // Left movement
+            else if (Input.GetKey(KeyCode.LeftArrow))
             {
-                rigidbody.linearVelocity = new Vector2(xInput * speed, rigidbody.linearVelocityY);
-            } // left
+                rigidbody.linearVelocity = new Vector2(-speed, rigidbody.linearVelocity.y);
+                if (!isWalking)
+                {
+                    AudioManager.instance.PlaySound(AudioManager.instance.walkingSound);
+                    isWalking = true;
+                }
+            }
+            else
+            {
+                rigidbody.linearVelocity = new Vector2(0, rigidbody.linearVelocity.y);
+                isWalking = false;
+            }
 
             Flip(isPlayer1);
 
+            // Shoot
             if (Input.GetKeyDown(KeyCode.RightControl))
             {
                 Instantiate(bulletPrefab, LaunchOfSet.position, LaunchOfSet.rotation);
-            } // shoot
+                AudioManager.instance.PlaySound(AudioManager.instance.shootingSound);
+                AudioManager.instance.PlaySound(AudioManager.instance.hitSound);
+            }
         }
-
     }
 
     private void Flip(bool pl1)
