@@ -43,9 +43,9 @@ public class CustomizationMenu : MonoBehaviour
         }
     }
 
-    public void StartGame()
+    public void LevelSelect()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("LevelSelect");
     }
 
     // --------------- needs to be hella optimized and no absolute values......
@@ -55,8 +55,8 @@ public class CustomizationMenu : MonoBehaviour
         int key = PlayerPrefs.GetInt("Player1Clothes"); // im gonna kill my self if this doesnt work :D
         if(key == 1)
         {
-            PlayerPrefs.SetInt("Player1Clothes", 5);
-            clothesP1[3].GetComponent<SpriteRenderer>().enabled = true;
+            PlayerPrefs.SetInt("Player1Clothes", clothesP1.Count+1);
+            clothesP1[clothesP1.Count - 1].GetComponent<SpriteRenderer>().enabled = true;
         }
         else
         {
@@ -71,10 +71,10 @@ public class CustomizationMenu : MonoBehaviour
     public void RightArrow1()
     {
         int key = PlayerPrefs.GetInt("Player1Clothes");
-        if (key >= 5)
+        if (key >= clothesP1.Count + 1)
         {
             PlayerPrefs.SetInt("Player1Clothes", 1);
-            clothesP1[3].GetComponent<SpriteRenderer>().enabled = false;
+            clothesP1[clothesP1.Count - 1].GetComponent<SpriteRenderer>().enabled = false;
         }
         else
         {
@@ -92,8 +92,8 @@ public class CustomizationMenu : MonoBehaviour
         int key = PlayerPrefs.GetInt("Player2Clothes"); // im gonna kill my self if this doesnt work :D
         if (key == 1)
         {
-            PlayerPrefs.SetInt("Player2Clothes", 5);
-            clothesP2[3].GetComponent<SpriteRenderer>().enabled = true;
+            PlayerPrefs.SetInt("Player2Clothes", clothesP1.Count + 1);
+            clothesP2[clothesP1.Count - 1].GetComponent<SpriteRenderer>().enabled = true;
         }
         else
         {
@@ -108,10 +108,10 @@ public class CustomizationMenu : MonoBehaviour
     public void RightArrow2()
     {
         int key = PlayerPrefs.GetInt("Player2Clothes");
-        if (key >= 5)
+        if (key >= clothesP1.Count + 1)
         {
             PlayerPrefs.SetInt("Player2Clothes", 1);
-            clothesP2[3].GetComponent<SpriteRenderer>().enabled = false;
+            clothesP2[clothesP1.Count - 1].GetComponent<SpriteRenderer>().enabled = false;
         }
         else
         {
