@@ -19,4 +19,9 @@ public class LevelSelect : MonoBehaviour
     {
         SceneManager.LoadScene("SampleScene");
     }
+
+    public void Menulis()
+    {
+        SceneManager.LoadScene("Menulis");
+    }
 }

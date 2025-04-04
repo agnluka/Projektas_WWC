@@ -48,6 +48,11 @@ public class CustomizationMenu : MonoBehaviour
         SceneManager.LoadScene("LevelSelect");
     }
 
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("Menu");
+    }
+
     // --------------- needs to be hella optimized and no absolute values......
 
     public void LeftArrow1()

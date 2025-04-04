@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LevelSelect.unity
     guid: 905fe8ab8117cb4429ca7c59115edff3
+  - enabled: 1
+    path: Assets/Scenes/Menulis.unity
+    guid: d320652854cfc1748b0515a2033bc441
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

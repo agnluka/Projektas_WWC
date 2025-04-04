@@ -59,6 +59,10 @@ public class PlayerScript : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.W) && rigidbody.linearVelocity.y == 0)
             {
                 rigidbody.linearVelocity = Vector2.up * 40;
+                if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().name == "Menulis")
+                {
+                    rigidbody.linearVelocity = Vector2.up * 50;
+                }
                 AudioManager.instance.PlaySound(AudioManager.instance.jumpSound);
             }
 
@@ -104,6 +108,10 @@ public class PlayerScript : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.UpArrow) && rigidbody.linearVelocity.y == 0)
             {
                 rigidbody.linearVelocity = Vector2.up * 40;
+                if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().name == "Menulis")
+                {
+                    rigidbody.linearVelocity = Vector2.up * 50;
+                }
                 AudioManager.instance.PlaySound(AudioManager.instance.jumpSound);
             }
 
