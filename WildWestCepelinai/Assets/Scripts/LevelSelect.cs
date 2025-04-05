@@ -24,4 +24,9 @@ public class LevelSelect : MonoBehaviour
     {
         SceneManager.LoadScene("Menulis");
     }
+
+    public void Platformos()
+    {
+        SceneManager.LoadScene("Platformos");
+    }
 }

@@ -21,20 +21,8 @@ public class PlayerScript : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     IEnumerator Start()
     {
-        List<GameObject> outfitList = AllChilds(outfits);
-        if (isPlayer1)
-        {
-            int key = PlayerPrefs.GetInt("Player1Clothes");
-            if (key - 2 >= 0)
-                outfitList[key - 2].GetComponent<SpriteRenderer>().enabled = true;
-        }
-        else
-        {
-            int key = PlayerPrefs.GetInt("Player2Clothes");
-            if (key - 2 >= 0)
-                outfitList[key - 2].GetComponent<SpriteRenderer>().enabled = true;
-        }
-
+        SetOutfit();
+        SetColor();
 
         enabled = false;
         yield return new WaitForSeconds(3); // fixed delay
@@ -202,6 +190,33 @@ public class PlayerScript : MonoBehaviour
             {
                 Searcher(list, VARIABLE.gameObject);
             }
+        }
+    }
+
+    private void SetOutfit()
+    {
+        List<GameObject> outfitList = AllChilds(outfits);
+        string playerKey = isPlayer1 ? "Player1Clothes" : "Player2Clothes";
+        int key = PlayerPrefs.GetInt(playerKey);
+        outfitList[key - 2].GetComponent<SpriteRenderer>().enabled = true;
+    }
+
+    private void SetColor()
+    {
+        string playerKey = isPlayer1 ? "Player1Color" : "Player2Color";
+        string colorName = PlayerPrefs.GetString(playerKey);
+        SpriteRenderer sr = GetComponent<SpriteRenderer>();
+
+        switch (colorName)
+        {
+            case "Red": sr.color = new Color(0.8867f, 0, 0); break;
+            case "Orange": sr.color = new Color(0.8867f, 0.2685f, 0); break;
+            case "Yellow": sr.color = new Color(0.8867f, 0.703f, 0); break;
+            case "Green": sr.color = new Color(0.2483f, 0.5169f, 0); break;
+            case "Blue": sr.color = new Color(0, 0, 0.8867f); break;
+            case "Purple": sr.color = new Color(0.317f, 0, 0.8867f); break;
+            case "Black": sr.color = new Color(0, 0, 0.11f); break;
+            case "White": sr.color = Color.white; break;
         }
     }
 }

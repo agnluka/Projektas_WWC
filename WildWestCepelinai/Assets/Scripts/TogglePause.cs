@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 public class TogglePause : MonoBehaviour
 {
     public GameObject menu;
-    public GameObject settingsPanel; // Drag your SettingsPanel GameObject here
+    //public GameObject settingsPanel; // Drag your SettingsPanel GameObject here
 
 
     public static bool isPaused = false;
@@ -25,7 +25,7 @@ public class TogglePause : MonoBehaviour
     {
         enabled = false;
         menu.SetActive(false);
-        settingsPanel.SetActive(false); // Start hidden
+        //settingsPanel.SetActive(false); // Start hidden
         yield return new WaitForSeconds(3);
         enabled = true;
     }
@@ -41,6 +41,14 @@ public class TogglePause : MonoBehaviour
             menu.SetActive(isPaused);
         }
     }
+
+    public void PauseGame()
+    {
+        isPaused = !isPaused;
+        Time.timeScale = isPaused ? 0 : 1;
+        menu.SetActive(isPaused);
+    }
+
     public void ResumeGame()
     {
         isPaused = false;
@@ -67,23 +75,21 @@ public class TogglePause : MonoBehaviour
     {
         Application.Quit();
     }
-    /// <summary>
-    /// //
-    /// </summary>
 
 
-    public void OpenSettings()
-    {
-        Debug.Log("Settings button clicked!");
 
-        settingsPanel.SetActive(true);
-        menu.SetActive(false); // Hide pause menu if needed
-    }
+    //public void OpenSettings()
+    //{
+    //    Debug.Log("Settings button clicked!");
 
-    public void CloseSettings()
-    {
-        settingsPanel.SetActive(false);
-        menu.SetActive(true); // Go back to pause menu
-    }
+    //    settingsPanel.SetActive(true);
+    //    menu.SetActive(false); // Hide pause menu if needed
+    //}
+
+    //public void CloseSettings()
+    //{
+    //    settingsPanel.SetActive(false);
+    //    menu.SetActive(true); // Go back to pause menu
+    //}
 
 }
