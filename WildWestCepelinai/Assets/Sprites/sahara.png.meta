@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sahara_0: 5823484276992852418
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
