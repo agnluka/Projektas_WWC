@@ -5,18 +5,31 @@ using UnityEngine.SceneManagement;
 public class TogglePause : MonoBehaviour
 {
     public GameObject menu;
+    //public GameObject settingsPanel; // Drag your SettingsPanel GameObject here
+
 
     public static bool isPaused = false;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
+    //IEnumerator Start()
+    //IEnumerator Start()
+    //{
+    //    enabled = false;
+    //    menu.SetActive(false);
+    //    yield return new WaitForSeconds(3);
+    //    enabled = true;
+    //}
+
     IEnumerator Start()
     {
         enabled = false;
         menu.SetActive(false);
+        //settingsPanel.SetActive(false); // Start hidden
         yield return new WaitForSeconds(3);
         enabled = true;
     }
+
 
     // Update is called once per frame
     void Update()
@@ -28,6 +41,14 @@ public class TogglePause : MonoBehaviour
             menu.SetActive(isPaused);
         }
     }
+
+    public void PauseGame()
+    {
+        isPaused = !isPaused;
+        Time.timeScale = isPaused ? 0 : 1;
+        menu.SetActive(isPaused);
+    }
+
     public void ResumeGame()
     {
         isPaused = false;
@@ -54,4 +75,21 @@ public class TogglePause : MonoBehaviour
     {
         Application.Quit();
     }
+
+
+
+    //public void OpenSettings()
+    //{
+    //    Debug.Log("Settings button clicked!");
+
+    //    settingsPanel.SetActive(true);
+    //    menu.SetActive(false); // Hide pause menu if needed
+    //}
+
+    //public void CloseSettings()
+    //{
+    //    settingsPanel.SetActive(false);
+    //    menu.SetActive(true); // Go back to pause menu
+    //}
+
 }

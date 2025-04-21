@@ -27,7 +27,7 @@ public class AudioManager : MonoBehaviour
             backgroundMusicSource.clip = backgroundMusicClip;
             backgroundMusicSource.loop = true;
             backgroundMusicSource.playOnAwake = false; // Disable playOnAwake to manually start it
-            backgroundMusicSource.volume = 1f;
+            backgroundMusicSource.volume = 0.5f;
             backgroundMusicSource.Play(); // Start music explicitly
 
             // Initialize Sound Effects
@@ -56,5 +56,15 @@ public class AudioManager : MonoBehaviour
     public void SetSoundEffectsVolume(float volume)
     {
         sfxSource.volume = Mathf.Clamp01(volume);
+    }
+
+    public void SetBackgroundMusicToggle(bool toggle)
+    {
+        backgroundMusicSource.mute = toggle;
+    }
+
+    public void SetSoundEffectsToggle(bool toggle)
+    {
+        backgroundMusicSource.mute = toggle;
     }
 }

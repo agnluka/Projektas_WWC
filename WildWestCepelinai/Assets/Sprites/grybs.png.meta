@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      grybs_0: 979772156992761782
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
