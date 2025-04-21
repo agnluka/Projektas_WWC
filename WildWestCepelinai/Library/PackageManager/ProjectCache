@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638771458604196811
-    m_Hash: 2057470704
+      ticks: 638781576798652675
+    m_Hash: 3721577148
   m_LockFileStatus:
     m_FilePath: C:/Users/agnel/OneDrive/Dokumenty/unity/WildWestCepelinai/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638771458604533340
-    m_Hash: 3686270037
+      ticks: 638781576798662648
+    m_Hash: 2481302742
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -404,10 +404,12 @@ m_ResolvedPackages:
     - 3.0.28
     - 3.0.31
     - 3.0.34
+    - 3.0.35
     compatible:
     - 3.0.31
     - 3.0.34
-    recommended: 3.0.34
+    - 3.0.35
+    recommended: 3.0.35
     deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
@@ -638,9 +640,11 @@ m_ResolvedPackages:
     - 1.12.0
     - 1.13.0
     - 1.13.1
+    - 1.14.0
     compatible:
     - 1.13.0
     - 1.13.1
+    - 1.14.0
     recommended: 1.13.1
     deprecated: []
   dependencies:
@@ -4685,8 +4689,10 @@ m_ResolvedPackages:
     - 10.1.2
     - 10.1.3
     - 10.1.4
+    - 10.2.0
     compatible:
     - 10.1.4
+    - 10.2.0
     recommended: 10.1.4
     deprecated: []
   dependencies:
@@ -4830,8 +4836,10 @@ m_ResolvedPackages:
     - 5.0.1
     - 5.0.2
     - 5.0.3
+    - 5.1.0
     compatible:
     - 5.0.3
+    - 5.1.0
     recommended: 5.0.3
     deprecated: []
   dependencies: []
@@ -4981,6 +4989,7 @@ m_ResolvedPackages:
     - 9.0.2
     - 9.0.3
     - 10.0.0
+    - 10.1.0
     compatible:
     - 9.0.3
     recommended: 9.0.3
@@ -5237,8 +5246,10 @@ m_ResolvedPackages:
     - 10.0.5
     - 10.0.6
     - 10.0.7
+    - 10.1.0
     compatible:
     - 10.0.7
+    - 10.1.0
     recommended: 10.0.7
     deprecated: []
   dependencies:
@@ -5478,6 +5489,7 @@ m_ResolvedPackages:
     - 4.0.2
     - 4.1.0
     - 4.2.1
+    - 4.3.0
     compatible:
     - 4.1.0
     recommended: 4.1.0
@@ -5588,6 +5600,7 @@ m_ResolvedPackages:
     - 1.2.0
     - 1.2.1
     - 1.2.2
+    - 1.2.3
     compatible:
     - 1.1.8
     recommended: 1.1.8
@@ -6162,10 +6175,12 @@ m_ResolvedPackages:
     - 2.5.1
     - 2.5.2
     - 2.5.3
+    - 2.6.0-exp.2
     compatible:
     - 2.5.1
     - 2.5.2
     - 2.5.3
+    - 2.6.0-exp.2
     recommended: 2.5.3
     deprecated: []
   dependencies:
@@ -6416,8 +6431,10 @@ m_ResolvedPackages:
     - 9.0.5
     - 9.0.6
     - 9.0.7
+    - 9.1.0
     compatible:
     - 9.0.7
+    - 9.1.0
     recommended: 9.0.7
     deprecated: []
   dependencies:
