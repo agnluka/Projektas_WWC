@@ -8,19 +8,31 @@ public class PlayerScript : MonoBehaviour
 {
     public Rigidbody2D rigidbody;
     public float speed = 8f;
+    public float jump = 40f;
     public bool isFacingRight = true;
     public bool isPlayer1 = true;
 
     public GameObject bulletPrefab;
     public Transform LaunchOfSet;
 
-    public GameObject outfits;
+    //public GameObject hats;
+    //public GameObject outfits;
 
     private bool isWalking = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     IEnumerator Start()
     {
+        switch (PlayerPrefs.GetInt("Level"))
+        {
+            case 2:
+                rigidbody.gravityScale = 7; jump = 50f; break;
+            case 3:
+                Vector3 pos = transform.position;
+                pos.y = -3.8f;
+                transform.position = pos;
+                transform.localScale = new Vector3(0.5f, 0.5f, 0.5f); jump = 50f; break;
+        }
         enabled = false;
         yield return new WaitForSeconds(3); // fixed delay
         enabled = true;
@@ -43,11 +55,7 @@ public class PlayerScript : MonoBehaviour
             // Jump
             if (Input.GetKeyDown(KeyCode.W) && rigidbody.linearVelocity.y == 0)
             {
-                rigidbody.linearVelocity = Vector2.up * 40;
-                if (PlayerPrefs.GetInt("Level") == 2)
-                {
-                    rigidbody.linearVelocity = Vector2.up * 50;
-                }
+                rigidbody.linearVelocity = Vector2.up * jump;
                 AudioManager.instance.PlaySound(AudioManager.instance.jumpSound);
             }
 
@@ -76,8 +84,7 @@ public class PlayerScript : MonoBehaviour
                 rigidbody.linearVelocity = new Vector2(0, rigidbody.linearVelocity.y);
                 isWalking = false;
             }
-
-            Flip(isPlayer1);
+            Flip();
 
             // Shoot
             if (Input.GetKeyDown(KeyCode.E))
@@ -125,8 +132,7 @@ public class PlayerScript : MonoBehaviour
                 rigidbody.linearVelocity = new Vector2(0, rigidbody.linearVelocity.y);
                 isWalking = false;
             }
-
-            Flip(isPlayer1);
+            Flip();
 
             // Shoot
             if (Input.GetKeyDown(KeyCode.RightControl))
@@ -138,17 +144,18 @@ public class PlayerScript : MonoBehaviour
         }
     }
 
-    private void Flip(bool pl1)
+    private void Flip()
     {
-        if (pl1)
+        if (isPlayer1)
         {
             if (isFacingRight && Input.GetKey(KeyCode.A) || !isFacingRight && Input.GetKey(KeyCode.D))
             {
                 isFacingRight = !isFacingRight;
                 transform.Rotate(0f, 180f, 0f);
-                Vector3 newPos = outfits.transform.localPosition;
-                newPos.z *= -1f;
-                outfits.transform.localPosition = newPos;
+                //Vector3 newPos = outfits.transform.localPosition;
+                //newPos.z *= -1f;
+                //outfits.transform.localPosition = newPos;
+                //hats.transform.localPosition = newPos;
             }
         }
         else
@@ -157,9 +164,10 @@ public class PlayerScript : MonoBehaviour
             {
                 isFacingRight = !isFacingRight;
                 transform.Rotate(0f, 180f, 0f);
-                Vector3 newPos = outfits.transform.localPosition;
-                newPos.z *= -1f;
-                outfits.transform.localPosition = newPos;
+                //Vector3 newPos = outfits.transform.localPosition;
+                //newPos.z *= -1f;
+                //outfits.transform.localPosition = newPos;
+                //hats.transform.localPosition = newPos;
             }
         }
     }

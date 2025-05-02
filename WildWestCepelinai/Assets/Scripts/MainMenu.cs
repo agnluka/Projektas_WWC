@@ -10,6 +10,16 @@ public class MainMenu : MonoBehaviour
         //SceneManager.LoadScene("Customization");
     }
 
+    public void PlayerMode1()
+    {
+        PlayerPrefs.SetInt("Mode", 1);
+    }
+
+    public void PlayerMode2()
+    {
+        PlayerPrefs.SetInt("Mode", 2);
+    }
+
     public void OpenSettings()
     {
         _sceneController.LoadScene("Options");

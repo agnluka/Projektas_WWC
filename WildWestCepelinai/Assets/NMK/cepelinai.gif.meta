@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      cepelinai_0: -3887933862918981586
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
