@@ -10,11 +10,14 @@ public class EnemyAI : MonoBehaviour
     public bool isFacingRight = true;
     public float detectionRange = 25f;
     public float stopRange = 7f;
-    public float shootCooldown = 0.05f;
+    public float shootCooldown = 0.5f;
     public float jumpCooldown = 2f;
 
-    public GameObject bulletPrefab;
+    //public GameObject bulletPrefab;
     public Transform LaunchOfSet;
+    public WeaponData[] levelWeapons;
+    private WeaponData currentWeapon;
+    public SpriteRenderer gunSpriteRenderer;
 
     public Transform player;
 
@@ -24,7 +27,18 @@ public class EnemyAI : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     IEnumerator Start()
     {
-        switch (PlayerPrefs.GetInt("Level"))
+        int level = PlayerPrefs.GetInt("Level", 1);
+        level = Mathf.Clamp(level, 1, levelWeapons.Length);
+        currentWeapon = levelWeapons[level - 1];
+
+        if (gunSpriteRenderer != null && currentWeapon.gunSprite != null)
+        {
+            gunSpriteRenderer.sprite = currentWeapon.gunSprite;
+            LaunchOfSet.localPosition = currentWeapon.launchOffsetLocalPosition;
+            gunSpriteRenderer.transform.localScale = currentWeapon.gunScale;
+        }
+
+        switch (level)
         {
             case 2:
                 rigidbody.gravityScale = 7; jump = 50f; break;
@@ -39,6 +53,12 @@ public class EnemyAI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (GameOverMenu.isGameOver)
+        {
+            rigidbody.linearVelocity = Vector2.zero;
+            return;
+        }
+
         MoveTowardPlayer();
         TryJump();
         TryShoot();
@@ -79,11 +99,18 @@ public class EnemyAI : MonoBehaviour
     {
         if (Time.time >= nextShootTime && Vector2.Distance(transform.position, player.position) <= detectionRange)
         {
-            Instantiate(bulletPrefab, LaunchOfSet.position, LaunchOfSet.rotation);
-            nextShootTime = Time.time + shootCooldown;
+            GameObject bullet = Instantiate(currentWeapon.bulletPrefab, LaunchOfSet.position, LaunchOfSet.rotation);
+            BulletScript bulletScript = bullet.GetComponent<BulletScript>();
+            if (bulletScript != null)
+            {
+                bulletScript.Speed = currentWeapon.bulletSpeed;
+                bulletScript.damage = currentWeapon.damage;
+                bulletScript.shooterTag = gameObject.tag;
+            }
+
+            nextShootTime = Time.time + currentWeapon.fireRate + shootCooldown;
             AudioManager.instance.PlaySound(AudioManager.instance.shootingSound);
             AudioManager.instance.PlaySound(AudioManager.instance.hitSound);
         }
-            
     }
 }

@@ -3,51 +3,46 @@ using UnityEngine;
 
 public class Platforming : MonoBehaviour
 {
-    private GameObject playerPlatform;
+    private MovingPlatform playerPlatform; // buvæs GameObject, dabar MovingPlatform
 
     [SerializeField] private CapsuleCollider2D playerCollider;
 
     public bool isPlayer1 = true;
 
-    // Update is called once per frame
     void Update()
     {
         if (isPlayer1 && !TogglePause.isPaused)
         {
-            if(Input.GetKeyDown(KeyCode.S))
+            if (Input.GetKeyDown(KeyCode.S) && playerPlatform != null)
             {
-                if(playerPlatform != null)
-                {
-                    StartCoroutine(DisaableCollision());
-                }
+                StartCoroutine(DisaableCollision());
             }
         }
         else if (!isPlayer1 && !TogglePause.isPaused)
         {
-            if (Input.GetKeyDown(KeyCode.DownArrow))
+            if (Input.GetKeyDown(KeyCode.DownArrow) && playerPlatform != null)
             {
-                if (playerPlatform != null)
-                {
-                    StartCoroutine(DisaableCollision());
-                }
+                StartCoroutine(DisaableCollision());
             }
-
         }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.CompareTag("Platform"))
+        if (collision.gameObject.CompareTag("Platform") &&
+            collision.gameObject.TryGetComponent(out MovingPlatform platform))
         {
-            playerPlatform = collision.gameObject;
+            playerPlatform = platform;
         }
     }
 
     private void OnCollisionExit2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Platform"))
+        if (collision.gameObject.CompareTag("Platform") &&
+            collision.gameObject.TryGetComponent(out MovingPlatform platform))
         {
-            playerPlatform = null;
+            if (playerPlatform == platform)
+                playerPlatform = null;
         }
     }
 
@@ -55,7 +50,19 @@ public class Platforming : MonoBehaviour
     {
         BoxCollider2D platformCollider = playerPlatform.GetComponent<BoxCollider2D>();
         Physics2D.IgnoreCollision(playerCollider, platformCollider);
-        yield return new WaitForSeconds(0.25f);
+
+        transform.position += new Vector3(0, -0.1f, 0);
+
+        yield return new WaitForSeconds(0.4f);
+
         Physics2D.IgnoreCollision(playerCollider, platformCollider, false);
+    }
+
+    private void LateUpdate()
+    {
+        if (playerPlatform != null)
+        {
+            transform.position += playerPlatform.Velocity * Time.deltaTime;
+        }
     }
 }

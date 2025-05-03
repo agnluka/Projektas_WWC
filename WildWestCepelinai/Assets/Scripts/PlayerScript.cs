@@ -12,8 +12,11 @@ public class PlayerScript : MonoBehaviour
     public bool isFacingRight = true;
     public bool isPlayer1 = true;
 
-    public GameObject bulletPrefab;
     public Transform LaunchOfSet;
+    public SpriteRenderer gunSpriteRenderer; 
+    public WeaponData[] levelWeapons;
+    private WeaponData currentWeapon;
+    private float fireCooldown = 0f;
 
     //public GameObject hats;
     //public GameObject outfits;
@@ -23,7 +26,18 @@ public class PlayerScript : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     IEnumerator Start()
     {
-        switch (PlayerPrefs.GetInt("Level"))
+        int level = PlayerPrefs.GetInt("Level");
+        level = Mathf.Clamp(level, 1, levelWeapons.Length);
+        currentWeapon = levelWeapons[level - 1];
+
+        if (gunSpriteRenderer != null && currentWeapon.gunSprite != null)
+        {
+            gunSpriteRenderer.sprite = currentWeapon.gunSprite;
+            LaunchOfSet.localPosition = currentWeapon.launchOffsetLocalPosition;
+            gunSpriteRenderer.transform.localScale = currentWeapon.gunScale;
+        }
+
+        switch (level)
         {
             case 2:
                 rigidbody.gravityScale = 7; jump = 50f; break;
@@ -49,6 +63,10 @@ public class PlayerScript : MonoBehaviour
         //    //enabled = false;
 
         //}
+        if (fireCooldown > 0f)
+        {
+            fireCooldown -= Time.deltaTime;
+        }
 
         if (isPlayer1 && !TogglePause.isPaused)
         {
@@ -69,7 +87,6 @@ public class PlayerScript : MonoBehaviour
                     isWalking = true;
                 }
             }
-            // Left movement
             else if (Input.GetKey(KeyCode.A))
             {
                 rigidbody.linearVelocity = new Vector2(-speed, rigidbody.linearVelocity.y);
@@ -87,11 +104,11 @@ public class PlayerScript : MonoBehaviour
             Flip();
 
             // Shoot
-            if (Input.GetKeyDown(KeyCode.E))
+            bool firePressed = currentWeapon.automaticFire ? Input.GetKey(KeyCode.E) : Input.GetKeyDown(KeyCode.E);
+            if (firePressed && fireCooldown <= 0f)
             {
-                Instantiate(bulletPrefab, LaunchOfSet.position, LaunchOfSet.rotation);
-                AudioManager.instance.PlaySound(AudioManager.instance.shootingSound);
-                AudioManager.instance.PlaySound(AudioManager.instance.hitSound);
+                Shoot();
+                fireCooldown = currentWeapon.fireRate;
             }
         }
         else if (!isPlayer1 && !TogglePause.isPaused)
@@ -135,11 +152,11 @@ public class PlayerScript : MonoBehaviour
             Flip();
 
             // Shoot
-            if (Input.GetKeyDown(KeyCode.RightControl))
+            bool firePressed = currentWeapon.automaticFire ? Input.GetKey(KeyCode.RightControl) : Input.GetKeyDown(KeyCode.RightControl);
+            if (firePressed && fireCooldown <= 0f)
             {
-                Instantiate(bulletPrefab, LaunchOfSet.position, LaunchOfSet.rotation);
-                AudioManager.instance.PlaySound(AudioManager.instance.shootingSound);
-                AudioManager.instance.PlaySound(AudioManager.instance.hitSound);
+                Shoot();
+                fireCooldown = currentWeapon.fireRate;
             }
         }
     }
@@ -172,5 +189,18 @@ public class PlayerScript : MonoBehaviour
         }
     }
 
-    
+    void Shoot()
+    {
+        GameObject bullet = Instantiate(currentWeapon.bulletPrefab, LaunchOfSet.position, LaunchOfSet.rotation);
+        BulletScript bulletScript = bullet.GetComponent<BulletScript>();
+        if (bulletScript != null)
+        {
+            bulletScript.Speed = currentWeapon.bulletSpeed;
+            bulletScript.damage = currentWeapon.damage;
+            bulletScript.shooterTag = gameObject.tag;
+        }
+        AudioManager.instance.PlaySound(AudioManager.instance.shootingSound);
+        AudioManager.instance.PlaySound(AudioManager.instance.hitSound);
+        
+    }
 }
