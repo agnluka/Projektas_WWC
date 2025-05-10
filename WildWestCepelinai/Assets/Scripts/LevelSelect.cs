@@ -17,16 +17,19 @@ public class LevelSelect : MonoBehaviour
 
     public void GediminoPilis()
     {
-        SceneManager.LoadScene("SampleScene");
+        PlayerPrefs.SetInt("Level", 1);
+        SceneManager.LoadScene("Game");
     }
 
     public void Menulis()
     {
-        SceneManager.LoadScene("Menulis");
+        PlayerPrefs.SetInt("Level", 2);
+        SceneManager.LoadScene("Game");
     }
 
     public void Platformos()
     {
-        SceneManager.LoadScene("Platformos");
+        PlayerPrefs.SetInt("Level", 3);
+        SceneManager.LoadScene("Game");
     }
 }

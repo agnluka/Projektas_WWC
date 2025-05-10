@@ -3,14 +3,28 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+    [SerializeField] private SceneControl _sceneController;
     public void PlayGame()
     {
-        SceneManager.LoadScene("Customization");
+        _sceneController.LoadScene("Customization");
+        //SceneManager.LoadScene("Customization");
+    }
+
+    public void PlayerMode1()
+    {
+        PlayerPrefs.SetInt("Mode", 1);
+    }
+
+    public void PlayerMode2()
+    {
+        PlayerPrefs.SetInt("Mode", 2);
     }
 
     public void OpenSettings()
     {
-        SceneManager.LoadScene("Options");
+        _sceneController.LoadScene("Options");
+        //SceneManager.LoadScene("Options");
+
     }
 
     public void QuitGame()

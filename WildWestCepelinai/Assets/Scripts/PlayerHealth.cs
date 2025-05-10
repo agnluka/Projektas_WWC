@@ -4,6 +4,8 @@ using UnityEngine;
 public class PlayerHealth : MonoBehaviour
 {
     public GameObject timer;
+    public GameOverMenu gameOver;
+    public GameObject otherPlayer;
 
     public int health;
     public int maxHealth = 10;
@@ -28,6 +30,19 @@ public class PlayerHealth : MonoBehaviour
     void Die()
     {
         Debug.Log(gameObject.name + " has been defeated!");
-        gameObject.SetActive(false); // Disables the player, you can add respawn logic here.
+        gameObject.SetActive(false);
+
+        string winner = "Draw";
+        GameObject winnerObject = null;
+
+        if (otherPlayer != null && otherPlayer.activeInHierarchy)
+        {
+            winner = otherPlayer.name == "Player1" ? "Player 1" : "Player 2";
+            winnerObject = otherPlayer;
+        }
+
+        gameOver.ShowWinner(winner, winnerObject);
+        gameOver.gameOver();
+        otherPlayer.SetActive(false);
     }
 }
