@@ -65,6 +65,6 @@ public class AudioManager : MonoBehaviour
 
     public void SetSoundEffectsToggle(bool toggle)
     {
-        backgroundMusicSource.mute = toggle;
+        sfxSource.mute = toggle;
     }
 }
