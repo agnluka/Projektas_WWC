@@ -21,11 +21,11 @@ public class SliderManager : MonoBehaviour
         }
 
         // Add listeners to the sliders
-        backgroundMusicSlider.onValueChanged.AddListener(OnBackgroundMusicVolumeChanged);
-        soundEffectsSlider.onValueChanged.AddListener(OnSoundEffectsVolumeChanged);
+        backgroundMusicSlider?.onValueChanged.AddListener(OnBackgroundMusicVolumeChanged);
+        soundEffectsSlider?.onValueChanged.AddListener(OnSoundEffectsVolumeChanged);
 
-        backgroundMusicToggle.onValueChanged.AddListener(OnBGMToggle);
-        soundEffectsToggle.onValueChanged.AddListener(OnSFXToggle);
+        backgroundMusicToggle?.onValueChanged.AddListener(OnBGMToggle);
+        soundEffectsToggle?.onValueChanged.AddListener(OnSFXToggle);
     }
 
     public void OnBackgroundMusicVolumeChanged(float volume)

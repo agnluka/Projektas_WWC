@@ -1,5 +1,4 @@
 using System.Collections;
-using UnityEditor.Tilemaps;
 using UnityEngine;
 using UnityEngine.UI; 
 
@@ -77,7 +76,7 @@ public class EnemyAI : MonoBehaviour
             float direction = player.position.x - transform.position.x;
             rigidbody.linearVelocity = new Vector2(Mathf.Sign(direction) * speed, rigidbody.linearVelocity.y);
             Flip(direction);
-            AudioManager.instance.PlaySound(AudioManager.instance.walkingSound);
+            AudioManager.instance?.PlaySound(AudioManager.instance.walkingSound);
         }
     }
 
@@ -96,7 +95,7 @@ public class EnemyAI : MonoBehaviour
         {
             rigidbody.linearVelocity = Vector2.up * jump;
             nextJumpTime = Time.time + jumpCooldown;
-            AudioManager.instance.PlaySound(AudioManager.instance.jumpSound);
+            AudioManager.instance?.PlaySound(AudioManager.instance.jumpSound);
         }
     }
 
@@ -114,8 +113,8 @@ public class EnemyAI : MonoBehaviour
             }
 
             nextShootTime = Time.time + currentWeapon.fireRate + shootCooldown;
-            AudioManager.instance.PlaySound(AudioManager.instance.shootingSound);
-            AudioManager.instance.PlaySound(AudioManager.instance.hitSound);
+            AudioManager.instance?.PlaySound(AudioManager.instance.shootingSound);
+            AudioManager.instance?.PlaySound(AudioManager.instance.hitSound);
         }
     }
 

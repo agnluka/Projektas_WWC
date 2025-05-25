@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      earth_PNG39_0: -8036758270983265802
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

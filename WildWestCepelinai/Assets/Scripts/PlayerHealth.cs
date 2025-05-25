@@ -32,7 +32,7 @@ public class PlayerHealth : MonoBehaviour
         Debug.Log(gameObject.name + " has been defeated!");
         gameObject.SetActive(false);
 
-        string winner = "Draw";
+        string winner = "Enemy CPU";
         GameObject winnerObject = null;
 
         if (otherPlayer != null && otherPlayer.activeInHierarchy)

@@ -1,101 +1,109 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\",
+  "WorkspaceRootPath": "C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|c:\\users\\user\\downloads\\projektas_wwc-project_ver04_21\\projektas_wwc-project_ver04_21\\wildwestcepelinai\\assets\\scripts\\movingplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movingplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\assets\\scripts\\platforming.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\platforming.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\assets\\scripts\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\assets\\scripts\\levelselection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levelselection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\assets\\scripts\\tim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\assets\\scripts\\countdownscipt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\countdownscipt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\assets\\scripts\\gameovermenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameovermenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\assets\\scripts\\optionsmeniu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\optionsmeniu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\assets\\scripts\\bulletscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bulletscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\assets\\scripts\\playerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\assets\\scripts\\playerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\assets\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\assets\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\assets\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|solutionrelative:assets\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\assets\\scripts\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|c:\\users\\agnel\\onedrive\\dokumenty\\unity\\wildwestcepelinai\\assets\\scripts\\playeroutfit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playeroutfit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\assets\\scripts\\newscriptableobjectscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\newscriptableobjectscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\assets\\scripts\\slidermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\slidermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\assets\\scripts\\restartscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\restartscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\assets\\scripts\\hoverover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hoverover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\assets\\scripts\\togglepause.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\togglepause.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\assets\\scripts\\levelselect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levelselect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\assets\\scripts\\customizationmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\assets\\scripts\\customizationmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\customizationmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|c:\\users\\agnel\\onedrive\\dokumenty\\unity\\wildwestcepelinai\\assets\\scripts\\scenecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\assets\\scripts\\sfxmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\assets\\scripts\\sfxmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sfxmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\assets\\scripts\\audioscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\assets\\scripts\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\assets\\scripts\\countdownscipt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\countdownscipt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|c:\\users\\agnel\\onedrive\\dokumenty\\unity\\wildwestcepelinai\\assets\\scripts\\movingplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movingplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\assets\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\assets\\scripts\\slidermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\slidermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\assets\\scripts\\platforming.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\platforming.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\assets\\scripts\\levelselection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levelselection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\assets\\scripts\\tim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\assets\\scripts\\gameovermenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameovermenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\assets\\scripts\\optionsmeniu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\optionsmeniu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\assets\\scripts\\bulletscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bulletscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\assets\\scripts\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\assets\\scripts\\newscriptableobjectscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\newscriptableobjectscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\assets\\scripts\\restartscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\restartscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\assets\\scripts\\hoverover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hoverover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\assets\\scripts\\togglepause.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\togglepause.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\assets\\scripts\\levelselect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levelselect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\assets\\scripts\\audioscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\audioscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\assets\\scripts\\playeroutfits.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\assets\\scripts\\playeroutfits.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C28A07D5-1943-D2A1-AF87-2F7D66A33910}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playeroutfits.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -106,17 +114,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "MainMenu.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\Assets\\Scripts\\MainMenu.cs",
+              "DocumentMoniker": "C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\Assets\\Scripts\\MainMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenu.cs",
-              "ToolTip": "C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\Assets\\Scripts\\MainMenu.cs",
+              "ToolTip": "C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\Assets\\Scripts\\MainMenu.cs",
               "RelativeToolTip": "Assets\\Scripts\\MainMenu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-01T21:00:03.486Z",
               "IsPinned": true,
@@ -124,76 +132,99 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "SceneControl.cs",
+              "DocumentMoniker": "C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\Assets\\Scripts\\SceneControl.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SceneControl.cs",
+              "ToolTip": "C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\Assets\\Scripts\\SceneControl.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SceneControl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T15:25:51.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerOutfit.cs",
+              "DocumentMoniker": "C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\Assets\\Scripts\\PlayerOutfit.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerOutfit.cs",
+              "ToolTip": "C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\Assets\\Scripts\\PlayerOutfit.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerOutfit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T14:13:32.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "MovingPlatform.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\Assets\\Scripts\\MovingPlatform.cs",
+              "DocumentMoniker": "C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\Assets\\Scripts\\MovingPlatform.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MovingPlatform.cs",
-              "ToolTip": "C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\Assets\\Scripts\\MovingPlatform.cs",
+              "ToolTip": "C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\Assets\\Scripts\\MovingPlatform.cs",
               "RelativeToolTip": "Assets\\Scripts\\MovingPlatform.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAswCAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-03T22:24:25.736Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
               "Title": "PlayerScript.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\Assets\\Scripts\\PlayerScript.cs",
+              "DocumentMoniker": "C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\Assets\\Scripts\\PlayerScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerScript.cs",
-              "ToolTip": "C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\Assets\\Scripts\\PlayerScript.cs",
+              "ToolTip": "C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\Assets\\Scripts\\PlayerScript.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerScript.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-01T21:00:03.489Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 17,
               "Title": "BulletScript.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\Assets\\Scripts\\BulletScript.cs",
+              "DocumentMoniker": "C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\Assets\\Scripts\\BulletScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BulletScript.cs",
-              "ToolTip": "C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\Assets\\Scripts\\BulletScript.cs",
+              "ToolTip": "C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\Assets\\Scripts\\BulletScript.cs",
               "RelativeToolTip": "Assets\\Scripts\\BulletScript.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T16:23:01.677Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T16:23:01.677Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 16,
               "Title": "OptionsMeniu.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\Assets\\Scripts\\OptionsMeniu.cs",
+              "DocumentMoniker": "C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\Assets\\Scripts\\OptionsMeniu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\OptionsMeniu.cs",
-              "ToolTip": "C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\Assets\\Scripts\\OptionsMeniu.cs",
+              "ToolTip": "C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\Assets\\Scripts\\OptionsMeniu.cs",
               "RelativeToolTip": "Assets\\Scripts\\OptionsMeniu.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T21:00:03.484Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-01T21:00:03.484Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 15,
               "Title": "GameOverMenu.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\Assets\\Scripts\\GameOverMenu.cs",
+              "DocumentMoniker": "C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\Assets\\Scripts\\GameOverMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameOverMenu.cs",
-              "ToolTip": "C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\Assets\\Scripts\\GameOverMenu.cs",
+              "ToolTip": "C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\Assets\\Scripts\\GameOverMenu.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameOverMenu.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T18:33:23.573Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T18:33:23.573Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "CountdownScipt.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\Assets\\Scripts\\CountdownScipt.cs",
+              "DocumentMoniker": "C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\Assets\\Scripts\\CountdownScipt.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CountdownScipt.cs",
-              "ToolTip": "C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\Assets\\Scripts\\CountdownScipt.cs",
+              "ToolTip": "C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\Assets\\Scripts\\CountdownScipt.cs",
               "RelativeToolTip": "Assets\\Scripts\\CountdownScipt.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -202,11 +233,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "HealthBar.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\Assets\\Scripts\\HealthBar.cs",
+              "DocumentMoniker": "C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\Assets\\Scripts\\HealthBar.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\HealthBar.cs",
-              "ToolTip": "C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\Assets\\Scripts\\HealthBar.cs",
+              "ToolTip": "C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\Assets\\Scripts\\HealthBar.cs",
               "RelativeToolTip": "Assets\\Scripts\\HealthBar.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -215,50 +246,47 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
               "Title": "Platforming.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\Assets\\Scripts\\Platforming.cs",
+              "DocumentMoniker": "C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\Assets\\Scripts\\Platforming.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Platforming.cs",
-              "ToolTip": "C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\Assets\\Scripts\\Platforming.cs",
+              "ToolTip": "C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\Assets\\Scripts\\Platforming.cs",
               "RelativeToolTip": "Assets\\Scripts\\Platforming.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAAADcAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T10:51:00.046Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T10:51:00.046Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
               "Title": "LevelSelection.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\Assets\\Scripts\\LevelSelection.cs",
+              "DocumentMoniker": "C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\Assets\\Scripts\\LevelSelection.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LevelSelection.cs",
-              "ToolTip": "C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\Assets\\Scripts\\LevelSelection.cs",
+              "ToolTip": "C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\Assets\\Scripts\\LevelSelection.cs",
               "RelativeToolTip": "Assets\\Scripts\\LevelSelection.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAAABwAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T16:24:29.804Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T16:24:29.804Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 14,
               "Title": "tim.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\Assets\\Scripts\\tim.cs",
+              "DocumentMoniker": "C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\Assets\\Scripts\\tim.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\tim.cs",
-              "ToolTip": "C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\Assets\\Scripts\\tim.cs",
+              "ToolTip": "C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\Assets\\Scripts\\tim.cs",
               "RelativeToolTip": "Assets\\Scripts\\tim.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAkwEMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T21:00:03.487Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-01T21:00:03.487Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "PlayerHealth.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\Assets\\Scripts\\PlayerHealth.cs",
+              "DocumentMoniker": "C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\Assets\\Scripts\\PlayerHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerHealth.cs",
-              "ToolTip": "C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\Assets\\Scripts\\PlayerHealth.cs",
+              "ToolTip": "C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\Assets\\Scripts\\PlayerHealth.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerHealth.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAAAC0AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -266,23 +294,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 1,
               "Title": "EnemyAI.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\Assets\\EnemyAI.cs",
+              "DocumentMoniker": "C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\Assets\\EnemyAI.cs",
               "RelativeDocumentMoniker": "Assets\\EnemyAI.cs",
-              "ToolTip": "C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\Assets\\EnemyAI.cs",
+              "ToolTip": "C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\Assets\\EnemyAI.cs",
               "RelativeToolTip": "Assets\\EnemyAI.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAAADoAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T17:44:19.707Z"
+              "WhenOpened": "2025-05-03T17:44:19.707Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "NewScriptableObjectScript.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\Assets\\Scripts\\NewScriptableObjectScript.cs",
+              "DocumentMoniker": "C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\Assets\\Scripts\\NewScriptableObjectScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\NewScriptableObjectScript.cs",
-              "ToolTip": "C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\Assets\\Scripts\\NewScriptableObjectScript.cs",
+              "ToolTip": "C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\Assets\\Scripts\\NewScriptableObjectScript.cs",
               "RelativeToolTip": "Assets\\Scripts\\NewScriptableObjectScript.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -290,23 +319,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 11,
               "Title": "SliderManager.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\Assets\\Scripts\\SliderManager.cs",
+              "DocumentMoniker": "C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\Assets\\Scripts\\SliderManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SliderManager.cs",
-              "ToolTip": "C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\Assets\\Scripts\\SliderManager.cs",
+              "ToolTip": "C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\Assets\\Scripts\\SliderManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\SliderManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T17:47:55.565Z"
+              "WhenOpened": "2025-05-03T17:47:55.565Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "RestartScript.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\Assets\\Scripts\\RestartScript.cs",
+              "DocumentMoniker": "C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\Assets\\Scripts\\RestartScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\RestartScript.cs",
-              "ToolTip": "C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\Assets\\Scripts\\RestartScript.cs",
+              "ToolTip": "C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\Assets\\Scripts\\RestartScript.cs",
               "RelativeToolTip": "Assets\\Scripts\\RestartScript.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -314,11 +344,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "LevelSelect.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\Assets\\Scripts\\LevelSelect.cs",
+              "DocumentMoniker": "C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\Assets\\Scripts\\LevelSelect.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LevelSelect.cs",
-              "ToolTip": "C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\Assets\\Scripts\\LevelSelect.cs",
+              "ToolTip": "C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\Assets\\Scripts\\LevelSelect.cs",
               "RelativeToolTip": "Assets\\Scripts\\LevelSelect.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -326,11 +356,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "HoverOver.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\Assets\\Scripts\\HoverOver.cs",
+              "DocumentMoniker": "C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\Assets\\Scripts\\HoverOver.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\HoverOver.cs",
-              "ToolTip": "C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\Assets\\Scripts\\HoverOver.cs",
+              "ToolTip": "C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\Assets\\Scripts\\HoverOver.cs",
               "RelativeToolTip": "Assets\\Scripts\\HoverOver.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -338,11 +368,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "TogglePause.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\Assets\\Scripts\\TogglePause.cs",
+              "DocumentMoniker": "C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\Assets\\Scripts\\TogglePause.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TogglePause.cs",
-              "ToolTip": "C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\Assets\\Scripts\\TogglePause.cs",
+              "ToolTip": "C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\Assets\\Scripts\\TogglePause.cs",
               "RelativeToolTip": "Assets\\Scripts\\TogglePause.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -350,62 +380,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 3,
               "Title": "CustomizationMenu.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\Assets\\Scripts\\CustomizationMenu.cs",
+              "DocumentMoniker": "C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\Assets\\Scripts\\CustomizationMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CustomizationMenu.cs",
-              "ToolTip": "C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\Assets\\Scripts\\CustomizationMenu.cs",
+              "ToolTip": "C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\Assets\\Scripts\\CustomizationMenu.cs",
               "RelativeToolTip": "Assets\\Scripts\\CustomizationMenu.cs",
-              "ViewState": "AgIAABcAAAAACwAAAAAtwDQAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwB0AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T21:00:03.483Z"
+              "WhenOpened": "2025-04-01T21:00:03.483Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "PlayerOutfits.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\Assets\\Scripts\\PlayerOutfits.cs",
+              "DocumentMoniker": "C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\Assets\\Scripts\\PlayerOutfits.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerOutfits.cs",
-              "ToolTip": "C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\Assets\\Scripts\\PlayerOutfits.cs",
+              "ToolTip": "C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\Assets\\Scripts\\PlayerOutfits.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerOutfits.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAKAAAA",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJUSURBVDhP3ZC/TxpxGMbf73GAeIhXKz9SbWMQ\u002B8NcMMWgQtpGBwZjhybWGhs2p66t1SYdutXO7aTtaOLQgYmBkgh0aqjBhGgjlCiHSOU8hEPkDg7uete0Y/\u002BA9jO8eYfnGT4P/Pto1BORI/jC3AJpnDB2NZ1NwnrfSow8GtH7Xf5GNBpFnjnPJeY2Y/A/9Ytrr9d6Tm6ddJhdZpGO0RImyzKG7WNjHM8FGlgjSXQRSRNuSpKI/Fh0FnsP2cMhXuQDOkkXoI/osVK99FloCYE8nh\u002BDV4Dhob0QeVQ\u002BWtnOb7ttRpvWO\u002B7d1\u002BP6Vl2ss0OXhwxNsflsK7NFKRnIsJllwGAgX81bZUl\u002B7ADHLh5OhfFas3YNRzhM35z\u002BqkGaFzLIVVZgeXunvaj8G\u002B6r7nspJgVaTLsxS83eLXCF0/PG\u002Bac\u002B6Kvj4YMw2DptMHpl9EAQhUUf5UshhCR1G1WvwBaYbkO3qNPokMVoYXqJXkmv1YsYwioxiEmYGmxLbQAErUw1U/pTVuE4jqy1au83E5uDaTZtj2QiH5aCS2SaSTva0H4\u002BbBomca/VCwISIFvJdpTrZSq0GzpTy0yF4XfKO3S/tn/Fd923wl6wSNFbWxxfXF7/ss5luew7c9VcxadcU63iaTEXz8XvtOX22\u002BxZVlRGhAvxIp34kXgy6ZmM585zy2QHCTODMzRloWjlF4WGkIu9jLWQ6hncDU4cl4/fRL5HbigLg\u002BIMAz0DeybZNL86v3r6y\u002BcvYKozQRFxsod8ABI4K/WKkxd4pyALD3XfdKXfuf8XgJ/U5B69phRCXgAAAABJRU5ErkJggg==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJXSURBVDhP3dK9TxNhHMDx3/P02mu50p5IaSNoCLS\u002BkEuJEN4aNTB0IDiYIBJMNyZXRTBxcBNnnUBHEgaHTgy1CaVOphJICBhaG\u002Bi1R6XHlfZK27v22nucjIn\u002BBfrZv9sX4J9nAACIkAg1NzPHWketrXVvnXHedzL9j/rpwECgtrW1hcZmxi6Jt0VL4GlAW3m90nZ669TsGHBofJTXMSEE40M8LCtysIZre0wrs2ejbHssYj/mvLn2Y\u002BnYo2hK0KSbgnyGH85X85/VhhoUKGEYXgGmQgchNlPILG0L20Muq8voG/Ed0hTdqGpVyXPZY6lr9WebyU0uU8hAUkouAoZuoSQ4iU4eu8G9T4XjYapcL1\u002BjEAWTNye/GpDhBQFSklRJ6WnpyREga0NXh\u002B7FxTgYsXFtmpu\u002Bm5WzZxe1i0\u002Bd0FmlwkdhcLW4YPDK4JGqqfN\u002Bzh9HCOkAAIQQnJWyot1i10wGE\u002BqwdojtTLtOG2kNI1yMQlTHAABNvQmAoJEsJfO/YgAAWZbZcqP8fn1nvTchJXoiyciHhY0FNiEm3E1oPu\u002Bz9bGUz\u002BkDFamQKqbMhWqBC\u002B2HzgEAxKKo7BZ2\u002BS5j15L/un9JqkjIgAwr8yPzi6tfVuWUnHrnKDlK1MTARCN3lkvH0rE7TdJ8mzpPaTRFQ0WrJHZ\u002B7DwZHxuPpS/Si6yZhaneKZ7r4HjWzGpqTU1HX0YbiBCCN/Y3Rk8KJ28i3yM3hJIAdosdutu6D2zENrs8u3z2e5u/YYSQznBMjG1jH4AO3mK16FVUxasS9aHpmyn/Z/Af\u002BgnU5B69svpg\u002BgAAAABJRU5ErkJggg==",
               "WhenOpened": "2025-04-01T21:00:03.482Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 6,
               "Title": "SFXManager.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\Assets\\Scripts\\SFXManager.cs",
+              "DocumentMoniker": "C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\Assets\\Scripts\\SFXManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SFXManager.cs",
-              "ToolTip": "C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\Assets\\Scripts\\SFXManager.cs",
+              "ToolTip": "C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\Assets\\Scripts\\SFXManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\SFXManager.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAACYAAAABAAAA",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJUSURBVDhP3ZC/TxpxGMbf73GAeIhXKz9SbWMQ\u002B8NcMMWgQtpGBwZjhybWGhs2p66t1SYdutXO7aTtaOLQgYmBkgh0aqjBhGgjlCiHSOU8hEPkDg7uete0Y/\u002BA9jO8eYfnGT4P/Pto1BORI/jC3AJpnDB2NZ1NwnrfSow8GtH7Xf5GNBpFnjnPJeY2Y/A/9Ytrr9d6Tm6ddJhdZpGO0RImyzKG7WNjHM8FGlgjSXQRSRNuSpKI/Fh0FnsP2cMhXuQDOkkXoI/osVK99FloCYE8nh\u002BDV4Dhob0QeVQ\u002BWtnOb7ttRpvWO\u002B7d1\u002BP6Vl2ss0OXhwxNsflsK7NFKRnIsJllwGAgX81bZUl\u002B7ADHLh5OhfFas3YNRzhM35z\u002BqkGaFzLIVVZgeXunvaj8G\u002B6r7nspJgVaTLsxS83eLXCF0/PG\u002Bac\u002B6Kvj4YMw2DptMHpl9EAQhUUf5UshhCR1G1WvwBaYbkO3qNPokMVoYXqJXkmv1YsYwioxiEmYGmxLbQAErUw1U/pTVuE4jqy1au83E5uDaTZtj2QiH5aCS2SaSTva0H4\u002BbBomca/VCwISIFvJdpTrZSq0GzpTy0yF4XfKO3S/tn/Fd923wl6wSNFbWxxfXF7/ss5luew7c9VcxadcU63iaTEXz8XvtOX22\u002BxZVlRGhAvxIp34kXgy6ZmM585zy2QHCTODMzRloWjlF4WGkIu9jLWQ6hncDU4cl4/fRL5HbigLg\u002BIMAz0DeybZNL86v3r6y\u002BcvYKozQRFxsod8ABI4K/WKkxd4pyALD3XfdKXfuf8XgJ/U5B69phRCXgAAAABJRU5ErkJggg==",
-              "WhenOpened": "2025-04-01T21:00:03.482Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "AudioManager.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\Assets\\Scripts\\AudioManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\AudioManager.cs",
-              "ToolTip": "C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\Assets\\Scripts\\AudioManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\AudioManager.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAQwEQAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T21:00:03.481Z"
+              "WhenOpened": "2025-04-01T21:00:03.482Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 5,
+              "Title": "AudioManager.cs",
+              "DocumentMoniker": "C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\Assets\\Scripts\\AudioManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AudioManager.cs",
+              "ToolTip": "C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\Assets\\Scripts\\AudioManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AudioManager.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAqwBoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T21:00:03.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "AudioScript.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\Assets\\Scripts\\AudioScript.cs",
+              "DocumentMoniker": "C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\Assets\\Scripts\\AudioScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AudioScript.cs",
-              "ToolTip": "C:\\Users\\user\\Downloads\\Projektas_WWC-project_ver04_21\\Projektas_WWC-project_ver04_21\\WildWestCepelinai\\Assets\\Scripts\\AudioScript.cs",
+              "ToolTip": "C:\\Users\\agnel\\OneDrive\\Dokumenty\\unity\\WildWestCepelinai\\Assets\\Scripts\\AudioScript.cs",
               "RelativeToolTip": "Assets\\Scripts\\AudioScript.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJUSURBVDhP3ZC/TxpxGMbf73GAeIhXKz9SbWMQ\u002B8NcMMWgQtpGBwZjhybWGhs2p66t1SYdutXO7aTtaOLQgYmBkgh0aqjBhGgjlCiHSOU8hEPkDg7uete0Y/\u002BA9jO8eYfnGT4P/Pto1BORI/jC3AJpnDB2NZ1NwnrfSow8GtH7Xf5GNBpFnjnPJeY2Y/A/9Ytrr9d6Tm6ddJhdZpGO0RImyzKG7WNjHM8FGlgjSXQRSRNuSpKI/Fh0FnsP2cMhXuQDOkkXoI/osVK99FloCYE8nh\u002BDV4Dhob0QeVQ\u002BWtnOb7ttRpvWO\u002B7d1\u002BP6Vl2ss0OXhwxNsflsK7NFKRnIsJllwGAgX81bZUl\u002B7ADHLh5OhfFas3YNRzhM35z\u002BqkGaFzLIVVZgeXunvaj8G\u002B6r7nspJgVaTLsxS83eLXCF0/PG\u002Bac\u002B6Kvj4YMw2DptMHpl9EAQhUUf5UshhCR1G1WvwBaYbkO3qNPokMVoYXqJXkmv1YsYwioxiEmYGmxLbQAErUw1U/pTVuE4jqy1au83E5uDaTZtj2QiH5aCS2SaSTva0H4\u002BbBomca/VCwISIFvJdpTrZSq0GzpTy0yF4XfKO3S/tn/Fd923wl6wSNFbWxxfXF7/ss5luew7c9VcxadcU63iaTEXz8XvtOX22\u002BxZVlRGhAvxIp34kXgy6ZmM585zy2QHCTODMzRloWjlF4WGkIu9jLWQ6hncDU4cl4/fRL5HbigLg\u002BIMAz0DeybZNL86v3r6y\u002BcvYKozQRFxsod8ABI4K/WKkxd4pyALD3XfdKXfuf8XgJ/U5B69phRCXgAAAABJRU5ErkJggg==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJXSURBVDhP3dK9TxNhHMDx3/P02mu50p5IaSNoCLS\u002BkEuJEN4aNTB0IDiYIBJMNyZXRTBxcBNnnUBHEgaHTgy1CaVOphJICBhaG\u002Bi1R6XHlfZK27v22nucjIn\u002BBfrZv9sX4J9nAACIkAg1NzPHWketrXVvnXHedzL9j/rpwECgtrW1hcZmxi6Jt0VL4GlAW3m90nZ669TsGHBofJTXMSEE40M8LCtysIZre0wrs2ejbHssYj/mvLn2Y\u002BnYo2hK0KSbgnyGH85X85/VhhoUKGEYXgGmQgchNlPILG0L20Muq8voG/Ed0hTdqGpVyXPZY6lr9WebyU0uU8hAUkouAoZuoSQ4iU4eu8G9T4XjYapcL1\u002BjEAWTNye/GpDhBQFSklRJ6WnpyREga0NXh\u002B7FxTgYsXFtmpu\u002Bm5WzZxe1i0\u002Bd0FmlwkdhcLW4YPDK4JGqqfN\u002Bzh9HCOkAAIQQnJWyot1i10wGE\u002BqwdojtTLtOG2kNI1yMQlTHAABNvQmAoJEsJfO/YgAAWZbZcqP8fn1nvTchJXoiyciHhY0FNiEm3E1oPu\u002Bz9bGUz\u002BkDFamQKqbMhWqBC\u002B2HzgEAxKKo7BZ2\u002BS5j15L/un9JqkjIgAwr8yPzi6tfVuWUnHrnKDlK1MTARCN3lkvH0rE7TdJ8mzpPaTRFQ0WrJHZ\u002B7DwZHxuPpS/Si6yZhaneKZ7r4HjWzGpqTU1HX0YbiBCCN/Y3Rk8KJ28i3yM3hJIAdosdutu6D2zENrs8u3z2e5u/YYSQznBMjG1jH4AO3mK16FVUxasS9aHpmyn/Z/Af\u002BgnU5B69svpg\u002BgAAAABJRU5ErkJggg==",
               "WhenOpened": "2025-04-01T21:00:03.489Z"
             }
           ]

@@ -19,14 +19,14 @@ public class PlayerOutfit : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Flip();
+
     }
 
     private GameObject KeyGameObject(int key, GameObject root)
     {
         if (root.transform.childCount > 0)
         {
-            int count = 2;
+            int count = 1;
             foreach (Transform VARIABLE in root.transform)
             {
                 if (count == key)
@@ -74,22 +74,6 @@ public class PlayerOutfit : MonoBehaviour
             case "Purple": sr.color = new Color(0.317f, 0, 0.8867f); break;
             case "Black": sr.color = new Color(0, 0, 0.11f); break;
             case "White": sr.color = Color.white; break;
-        }
-    }
-
-    private void Flip()
-    {
-        if (Mathf.Abs(transform.eulerAngles.y - 180f) < 1f)
-        {
-            Vector3 newPos = new Vector3(0, 0, 0.25f);
-            outfits.transform.localPosition = newPos;
-            hats.transform.localPosition = newPos;
-        }
-        else
-        {
-            Vector3 newPos = new Vector3(0, 0, -0.25f);
-            outfits.transform.localPosition = newPos;
-            hats.transform.localPosition = newPos;
         }
     }
 }

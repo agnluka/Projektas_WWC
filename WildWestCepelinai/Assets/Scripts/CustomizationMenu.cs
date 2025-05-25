@@ -1,11 +1,17 @@
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class CustomizationMenu : MonoBehaviour
 {
     public GameObject player1;
     public GameObject player2;
+    public TMP_Dropdown hatP1Dropdown;
+    public TMP_Dropdown hatP2Dropdown;
+    public TMP_Dropdown clothesP1Dropdown;
+    public TMP_Dropdown clothesP2Dropdown;
 
     private GameObject p1Hats;
     private GameObject p2Hats;
@@ -21,12 +27,17 @@ public class CustomizationMenu : MonoBehaviour
         p2Hats = player2.transform.GetChild(0).gameObject;
         p1Clothes = player1.transform.GetChild(1).gameObject;
         p2Clothes = player2.transform.GetChild(1).gameObject;
-        PlayerPrefs.SetInt("Player1Clothes", 1);
-        PlayerPrefs.SetInt("Player2Clothes", 1);
-        PlayerPrefs.SetInt("Player1Hat", 1);
-        PlayerPrefs.SetInt("Player2Hat", 1);
+        PlayerPrefs.SetInt("Player1Clothes", 0);
+        PlayerPrefs.SetInt("Player2Clothes", 0);
+        PlayerPrefs.SetInt("Player1Hat", 0);
+        PlayerPrefs.SetInt("Player2Hat", 0);
         PlayerPrefs.SetString("Player1Color", "White");
         PlayerPrefs.SetString("Player2Color", "White");
+
+        hatP1Dropdown.onValueChanged.AddListener(SelectHat);
+        hatP2Dropdown.onValueChanged.AddListener(SelectHat);
+        clothesP1Dropdown.onValueChanged.AddListener(SelectClothes);
+        clothesP2Dropdown.onValueChanged.AddListener(SelectClothes);
     }
 
     private List<GameObject> AllChilds(GameObject root)
@@ -84,40 +95,67 @@ public class CustomizationMenu : MonoBehaviour
         hat = false;
     }
 
-    private void Customize(int direction)
+    //private void Customize(int direction)
+    //{
+    //    string playerKey;
+    //    List<GameObject> hatsClothes;
+    //    if (hat) // i hate this so much omg
+    //    {
+    //        playerKey = isPlayer1 ? "Player1Hat" : "Player2Hat";
+    //        hatsClothes = isPlayer1 ? AllChilds(p1Hats) : AllChilds(p2Hats);
+    //    }
+    //    else
+    //    {
+    //        playerKey = isPlayer1 ? "Player1Clothes" : "Player2Clothes";
+    //        hatsClothes = isPlayer1 ? AllChilds(p1Clothes) : AllChilds(p2Clothes);
+    //    }
+    //    int key = PlayerPrefs.GetInt(playerKey);
+    //    int max = hatsClothes.Count + 1;
+
+    //    // Disable current clothes
+    //    if (key - 2 >= 0)
+    //        hatsClothes[key - 2].SetActive(false);
+
+    //    // Move left or right (with wrap-around)
+    //    key += direction;
+    //    if (key < 1)
+    //        key = max;
+    //    if (key > max)
+    //        key = 1;
+
+    //    PlayerPrefs.SetInt(playerKey, key);
+
+    //    // Enable new clothes
+    //    if (key - 2 >= 0)
+    //        hatsClothes[key - 2].SetActive(true);
+    //}
+
+    public void SelectHat(int index)
     {
-        string playerKey;
-        List<GameObject> hatsClothes;
-        if (hat) // i hate this so much omg
-        {
-            playerKey = isPlayer1 ? "Player1Hat" : "Player2Hat";
-            hatsClothes = isPlayer1 ? AllChilds(p1Hats) : AllChilds(p2Hats);
-        }
-        else
-        {
-            playerKey = isPlayer1 ? "Player1Clothes" : "Player2Clothes";
-            hatsClothes = isPlayer1 ? AllChilds(p1Clothes) : AllChilds(p2Clothes);
-        }
-        int key = PlayerPrefs.GetInt(playerKey);
-        int max = hatsClothes.Count + 1;
-
-        // Disable current clothes
-        if (key - 2 >= 0)
-            hatsClothes[key - 2].SetActive(false);
-
-        // Move left or right (with wrap-around)
-        key += direction;
-        if (key < 1)
-            key = max;
-        if (key > max)
-            key = 1;
-
-        PlayerPrefs.SetInt(playerKey, key);
-
-        // Enable new clothes
-        if (key - 2 >= 0)
-            hatsClothes[key - 2].SetActive(true);
+        string playerKey = isPlayer1 ? "Player1Hat" : "Player2Hat";
+        List<GameObject> hatList = isPlayer1 ? AllChilds(p1Hats) : AllChilds(p2Hats);
+        SelectItem(playerKey, hatList, index);
     }
+
+    public void SelectClothes(int index)
+    {
+        string playerKey = isPlayer1 ? "Player1Clothes" : "Player2Clothes";
+        List<GameObject> clothesList = isPlayer1 ? AllChilds(p1Clothes) : AllChilds(p2Clothes);
+        SelectItem(playerKey, clothesList, index);
+    }
+
+    private void SelectItem(string playerKey, List<GameObject> items, int index)
+    {
+        int currentIndex = PlayerPrefs.GetInt(playerKey);
+        if (currentIndex - 1 >= 0)
+            items[currentIndex - 1].SetActive(false);
+
+        PlayerPrefs.SetInt(playerKey, index);
+
+        if (index - 1 >= 0)
+            items[index - 1].SetActive(true);
+    }
+
 
     //public void ChangeClothes(int direction)
     //{
@@ -145,8 +183,8 @@ public class CustomizationMenu : MonoBehaviour
     //        clothesList[key - 2].GetComponent<SpriteRenderer>().enabled = true;
     //}
 
-    public void LeftArrow() => Customize(-1);
-    public void RightArrow() => Customize(1);
+    //public void LeftArrow() => Customize(-1);
+    //public void RightArrow() => Customize(1);
 
     private void SetColor(string colorName, Color colorValue)
     {

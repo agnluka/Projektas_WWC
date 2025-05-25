@@ -10,6 +10,12 @@ public class LevelSelection : MonoBehaviour
         int key = PlayerPrefs.GetInt("Level");
         GameObject level = KeyGameObject(key, levels);
         level.SetActive(true);
+        switch (key)
+        {
+            case 1: AudioManager.instance?.SwitchMusic(AudioManager.instance.cepelinuBGM); break;
+            case 2: AudioManager.instance?.SwitchMusic(AudioManager.instance.menulioBGM); break;
+            case 3: AudioManager.instance?.SwitchMusic(AudioManager.instance.platformuBGM); break;
+        }
     }
 
     // Update is called once per frame

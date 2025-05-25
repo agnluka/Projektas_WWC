@@ -310,7 +310,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -0.13, y: 0.000047468}
-  m_SizeDelta: {x: 18.037, y: 10.413}
+  m_SizeDelta: {x: 19.6, y: 10.413}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &104405719
 MonoBehaviour:
@@ -875,8 +875,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 843f64a533dcbfd46af92e4ae1008efb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  backgroundMusicClip: {fileID: 8300000, guid: 132fed65b27cc424e90cd149dd39cd14, type: 3}
+  backgroundMusicClip: {fileID: 8300000, guid: ada8e66f9cd287740a12c16e48a9f7a2, type: 3}
   backgroundMusicSource: {fileID: 0}
+  cepelinuBGM: {fileID: 8300000, guid: 6b2b93f3ebce64546a27659db6a0ed52, type: 3}
+  menulioBGM: {fileID: 8300000, guid: da460288a06b7c540830f469006e3bfd, type: 3}
+  platformuBGM: {fileID: 8300000, guid: da1212911460f4d438f5643480d9104d, type: 3}
   walkingSound: {fileID: 8300000, guid: 4fda2ac722802614a9825f433683fd0d, type: 3}
   jumpSound: {fileID: 8300000, guid: 3acab46d576bac44da82ded6274c688e, type: 3}
   shootingSound: {fileID: 8300000, guid: c9e26a68c07f6a5448959e9169b5c9ed, type: 3}
@@ -907,8 +910,8 @@ AudioSource:
   m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 132fed65b27cc424e90cd149dd39cd14, type: 3}
-  m_Resource: {fileID: 8300000, guid: 132fed65b27cc424e90cd149dd39cd14, type: 3}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 0.035
   m_Pitch: 1
@@ -1094,8 +1097,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.0002, y: 0.0023}
-  m_SizeDelta: {x: 18.0368, y: 10.4128}
+  m_AnchoredPosition: {x: 0.1705, y: -0.0287}
+  m_SizeDelta: {x: 18.3774, y: 10.3509}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &956545992
 GameObject:

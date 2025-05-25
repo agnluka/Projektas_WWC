@@ -7,6 +7,9 @@ public class AudioManager : MonoBehaviour
     [Header("Background Music")]
     public AudioClip backgroundMusicClip;
     public AudioSource backgroundMusicSource;
+    public AudioClip cepelinuBGM;
+    public AudioClip menulioBGM;
+    public AudioClip platformuBGM;
 
     [Header("Sound Effects")]
     public AudioClip walkingSound;
@@ -32,12 +35,19 @@ public class AudioManager : MonoBehaviour
 
             // Initialize Sound Effects
             sfxSource = gameObject.AddComponent<AudioSource>();
-            sfxSource.volume = 1f;
+            sfxSource.volume = 0.5f;
         }
         else
         {
             Destroy(gameObject);
         }
+    }
+
+    public void SwitchMusic(AudioClip clip)
+    {
+        backgroundMusicSource.Stop();
+        backgroundMusicSource.clip = clip;
+        backgroundMusicSource.Play();
     }
 
     public void PlaySound(AudioClip clip)

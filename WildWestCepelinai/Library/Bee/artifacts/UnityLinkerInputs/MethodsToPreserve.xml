@@ -1,4 +1,93 @@
 <linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="CustomizationMenu">
+			<method name="C1Red"/>
+			<method name="C1Red"/>
+			<method name="C2Orange"/>
+			<method name="C2Orange"/>
+			<method name="C3Yellow"/>
+			<method name="C3Yellow"/>
+			<method name="C4Green"/>
+			<method name="C4Green"/>
+			<method name="C5Blue"/>
+			<method name="C5Blue"/>
+			<method name="C6Purple"/>
+			<method name="C6Purple"/>
+			<method name="C7Black"/>
+			<method name="C7Black"/>
+			<method name="C8White"/>
+			<method name="C8White"/>
+			<method name="ClothesClick"/>
+			<method name="ClothesClick"/>
+			<method name="ClothesClick"/>
+			<method name="ClothesClick"/>
+			<method name="HatsClick"/>
+			<method name="HatsClick"/>
+			<method name="HatsClick"/>
+			<method name="HatsClick"/>
+			<method name="IsPlayer1"/>
+			<method name="IsPlayer1"/>
+			<method name="IsPlayer1"/>
+			<method name="IsPlayer1"/>
+			<method name="IsPlayer1"/>
+			<method name="IsPlayer1"/>
+			<method name="IsPlayer1"/>
+			<method name="IsPlayer1"/>
+			<method name="IsPlayer1"/>
+			<method name="IsPlayer1"/>
+			<method name="IsPlayer1"/>
+			<method name="IsPlayer1"/>
+			<method name="IsPlayer1"/>
+			<method name="IsPlayer1"/>
+			<method name="IsPlayer2"/>
+			<method name="IsPlayer2"/>
+			<method name="IsPlayer2"/>
+			<method name="IsPlayer2"/>
+			<method name="IsPlayer2"/>
+			<method name="IsPlayer2"/>
+			<method name="IsPlayer2"/>
+			<method name="IsPlayer2"/>
+			<method name="IsPlayer2"/>
+			<method name="IsPlayer2"/>
+			<method name="IsPlayer2"/>
+			<method name="IsPlayer2"/>
+			<method name="IsPlayer2"/>
+			<method name="IsPlayer2"/>
+			<method name="LevelSelect"/>
+			<method name="MainMenu"/>
+		</type>
+		<type fullname="Fullscreen">
+			<method name="Change"/>
+		</type>
+		<type fullname="GameOverMenu">
+			<method name="QuitToDesktop"/>
+			<method name="QuitToMenu"/>
+			<method name="RestartGame"/>
+		</type>
+		<type fullname="LevelSelect">
+			<method name="GediminoPilis"/>
+			<method name="Menulis"/>
+			<method name="Platformos"/>
+		</type>
+		<type fullname="MainMenu">
+			<method name="OpenSettings"/>
+			<method name="PlayerMode1"/>
+			<method name="PlayerMode2"/>
+			<method name="PlayGame"/>
+			<method name="PlayGame"/>
+			<method name="QuitGame"/>
+		</type>
+		<type fullname="OptionsMeniu">
+			<method name="OpenMainMenue"/>
+		</type>
+		<type fullname="TogglePause">
+			<method name="PauseGame"/>
+			<method name="QuitToDesktop"/>
+			<method name="QuitToMainMenu"/>
+			<method name="RestartGame"/>
+			<method name="ResumeGame"/>
+		</type>
+	</assembly>
 	<assembly fullname="Unity.RenderPipelines.Core.Runtime" ignoreIfMissing="1">
 		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerButton">
 			<method name="OnAction"/>

@@ -103,7 +103,7 @@ public class PlayerScript : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.W) && rigidbody.linearVelocity.y == 0)
             {
                 rigidbody.linearVelocity = Vector2.up * jump;
-                AudioManager.instance.PlaySound(AudioManager.instance.jumpSound);
+                AudioManager.instance?.PlaySound(AudioManager.instance.jumpSound);
             }
 
             // Right movement
@@ -112,7 +112,7 @@ public class PlayerScript : MonoBehaviour
                 rigidbody.linearVelocity = new Vector2(speed, rigidbody.linearVelocity.y);
                 if (!isWalking)
                 {
-                    AudioManager.instance.PlaySound(AudioManager.instance.walkingSound);
+                    AudioManager.instance?.PlaySound(AudioManager.instance.walkingSound);
                     isWalking = true;
                 }
             }
@@ -121,7 +121,7 @@ public class PlayerScript : MonoBehaviour
                 rigidbody.linearVelocity = new Vector2(-speed, rigidbody.linearVelocity.y);
                 if (!isWalking)
                 {
-                    AudioManager.instance.PlaySound(AudioManager.instance.walkingSound);
+                    AudioManager.instance?.PlaySound(AudioManager.instance.walkingSound);
                     isWalking = true;
                 }
             }
@@ -145,12 +145,8 @@ public class PlayerScript : MonoBehaviour
             // Jump
             if (Input.GetKeyDown(KeyCode.UpArrow) && rigidbody.linearVelocity.y == 0)
             {
-                rigidbody.linearVelocity = Vector2.up * 40;
-                if (PlayerPrefs.GetInt("Level") == 2)
-                {
-                    rigidbody.linearVelocity = Vector2.up * 50;
-                }
-                AudioManager.instance.PlaySound(AudioManager.instance.jumpSound);
+                rigidbody.linearVelocity = Vector2.up * jump;
+                AudioManager.instance?.PlaySound(AudioManager.instance.jumpSound);
             }
 
             // Right movement
@@ -159,7 +155,7 @@ public class PlayerScript : MonoBehaviour
                 rigidbody.linearVelocity = new Vector2(speed, rigidbody.linearVelocity.y);
                 if (!isWalking)
                 {
-                    AudioManager.instance.PlaySound(AudioManager.instance.walkingSound);
+                    AudioManager.instance?.PlaySound(AudioManager.instance.walkingSound);
                     isWalking = true;
                 }
             }
@@ -169,7 +165,7 @@ public class PlayerScript : MonoBehaviour
                 rigidbody.linearVelocity = new Vector2(-speed, rigidbody.linearVelocity.y);
                 if (!isWalking)
                 {
-                    AudioManager.instance.PlaySound(AudioManager.instance.walkingSound);
+                    AudioManager.instance?.PlaySound(AudioManager.instance.walkingSound);
                     isWalking = true;
                 }
             }
@@ -228,8 +224,8 @@ public class PlayerScript : MonoBehaviour
             bulletScript.damage = currentWeapon.damage;
             bulletScript.shooterTag = gameObject.tag;
         }
-        AudioManager.instance.PlaySound(AudioManager.instance.shootingSound);
-        AudioManager.instance.PlaySound(AudioManager.instance.hitSound);
+        AudioManager.instance?.PlaySound(AudioManager.instance.shootingSound);
+        AudioManager.instance?.PlaySound(AudioManager.instance.hitSound);
 
     }
 

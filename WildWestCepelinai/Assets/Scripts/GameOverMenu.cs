@@ -54,7 +54,7 @@ public class GameOverMenu : MonoBehaviour
     {
         if (winnerText != null)
         {
-            winnerText.text = winnerName == "Draw" ? "Draw" : winnerName + " Wins!";
+            winnerText.text = winnerName + " Wins!";
         }
 
         if (spawnedWinnerModel != null)
